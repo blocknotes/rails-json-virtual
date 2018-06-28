@@ -32,8 +32,8 @@ author.update last_name: 'Cage'
 author.fiscal_code = 'AaBbCc123'
 author.save
 author.reload
-# -> author.detail.upper_fiscal_code  is available
-# -> author.detail.length_fiscal_code is available (stored)
+# -> author.upper_fiscal_code  is available
+# -> author.length_fiscal_code is available (stored)
 ```
 
 ## MySQL tests
